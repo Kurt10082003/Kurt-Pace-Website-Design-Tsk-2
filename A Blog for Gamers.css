@@ -1,0 +1,54 @@
+
+
+
+/********************************
+            classes
+*********************************/
+
+.navbar {
+    border-bottom: 1px solid #dbd2d2;
+    padding: .5em;
+    background-color: #ffcfa5;
+}
+
+
+.navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    padding: 0; 
+}
+
+.navbar-nav li {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.navbar-brand{
+    font-size: 1.8em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: black;
+}
+
+.nav-item{
+    text-decoration-color: rgb(236, 28, 0);
+}
+
+.nav-link{
+    text-decoration: black;
+    color: black;
+}
+
+.button{
+    text-decoration: black;
+    color: black;
+    margin-left: 1em;
+    margin-right: 1em;
+}
