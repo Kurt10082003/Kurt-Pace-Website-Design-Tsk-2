@@ -1,6 +1,5 @@
 
 
-
 /********************************
             classes
 *********************************/
@@ -51,4 +50,25 @@
     color: black;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+.img{
+    margin-top: 5em;
+    display: block;
+    width: 30em;
+    align-self:center;
+    
+}
+
+.descriptions{
+    margin-top: 0%;
+    width: 25.64em;
+    align-self: center;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+
+}
+
+.jumbotron{
+    background-color: black;
 }
