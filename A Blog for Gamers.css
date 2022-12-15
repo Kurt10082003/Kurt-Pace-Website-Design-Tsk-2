@@ -7,7 +7,7 @@
 .navbar {
     border-bottom: 1px solid #dbd2d2;
     padding: .5em;
-    background-color: #ffcfa5;
+    background-color: #ffffff;
 }
 
 
@@ -55,20 +55,42 @@
 .img{
     margin-top: 5em;
     display: block;
+    border-top-left-radius: 1em;
+    border-style: solid black 10em;
+    border-top-right-radius: 1em;
     width: 30em;
     align-self:center;
     
+}
+
+.small-img{
+    margin-top: 2em;
+    display: block;
+    border-top-left-radius: 1em;
+    border-style: solid black 10em;
+    border-top-right-radius: 1em;
+    width: 20em;
+    align-self:center;
 }
 
 .descriptions{
     margin-top: 0em;
     width: 29em;
     align-self: center;
-    background-color: #ffe6d0;
+    background-color: #ffffff;
     color: #000000;
     padding-left: 0.5em;
     padding-right: 0.5em;
+}
 
+.small-descriptions{
+    margin-top: 0em;
+    width: 23.1em;
+    align-self: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 .jumbotron{
@@ -82,13 +104,29 @@
     position: relative;
 }
 
-.small-img{
-    margin-top: 2em;
-    display: block;
-    width: 20em;
-    align-self:center;
+.jumbotron-p{
+background-image: url(Assets/305679.png);
+background-repeat: no-repeat;
+background-size: 150em;
+background-color: rgba(0, 0, 0, 0.192);
 }
 
 .sidebar{
-    float: right;
+    margin: auto;
+    float:right;
+    padding-top: 7em;
+    padding-right: 20em;
+}
+
+.body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    margin-top: 65px;
+    padding-left: 2em;
+    padding-right: 15em;
+
 }
