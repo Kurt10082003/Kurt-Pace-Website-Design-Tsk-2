@@ -61,14 +61,17 @@
 }
 
 .descriptions{
-    margin-top: 0%;
-    width: 25.64em;
+    margin-top: 0em;
+    width: 29em;
     align-self: center;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+    background-color: #ffe6d0;
+    color: #000000;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 
 }
 
 .jumbotron{
     background-color: black;
 }
+
