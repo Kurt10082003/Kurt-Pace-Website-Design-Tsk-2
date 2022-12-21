@@ -3,7 +3,7 @@
             classes
 *********************************/
 
-.navbar {
+/* .navbar {
     border-bottom: 1px solid #dbd2d2;
     padding: .5em;
     background-color: #ffffff;
@@ -35,6 +35,10 @@
     text-decoration: black;
 }
 
+
+
+
+
 .nav-item{
     text-decoration-color: rgb(236, 28, 0);
 }
@@ -51,7 +55,7 @@
     margin-right: 1em;
 }
 
-.img{
+.img-for-articles{
     margin-top: 5em;
     display: block;
     border-top-left-radius: 1em;
@@ -99,7 +103,7 @@
     box-shadow: 0 0 1em black;
 }
 
-.descriptions{
+.descriptions-for-articles{
     margin-top: 2em;
     width: 45.5em;
     align-self: center;
@@ -155,7 +159,7 @@ background-size: 150em;
 background-color: rgba(255, 233, 233, 0.192);
 }
 
-.sidebar{
+ .sidebar{
     margin: 0;
     float:right;
     padding-right: 25em;
@@ -167,5 +171,5 @@ background-color: rgba(255, 233, 233, 0.192);
 .footer-a{
     background-color: rgb(255, 255, 255);
     margin-top: 70px;
-}
-
+} 
+ */
