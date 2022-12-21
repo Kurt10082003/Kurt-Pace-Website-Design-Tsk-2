@@ -1,18 +1,7 @@
 
-
-/********************************
-            classes
-*********************************/
-
-tbody{
-    background-color: rgb(255, 255, 255);
-
-}
-
-img {
-    display: block;
-    width: 100%;
-}
+/****************************
+B
+*****************************/
 
 .button{
     text-decoration: black;
@@ -21,6 +10,9 @@ img {
     margin-right: 0;
 }
 
+/****************************
+D
+*****************************/
 .descriptions{
     margin-top: 0em;
     width: 29em;
@@ -42,19 +34,32 @@ img {
 
 }
 
-
+/***************************
+F
+****************************/
 .footer{
     background-color: rgb(255, 255, 255);
     margin-top: 65px;
-    margin-left: -11em;
-    margin-right: -11em;
-    padding-left: 2em;
-    padding-right: 15em;
 }
 
-.footer-a{
+/* God Of War*/
+.footer-a{ 
     background-color: rgb(255, 255, 255);
     margin-top: 70px;
+}
+
+.footer-tlou{
+    background-color: rgb(230, 169, 115);
+    margin-top: 70px;
+}
+
+/***************************
+I
+****************************/
+
+img {
+    display: block;
+    width: 100%;
 }
 
 .img{
@@ -83,7 +88,7 @@ img {
 }
 
 .img-a{
-    margin-top: 10em;
+    margin-top: 5em;
     border-radius: 0.5em;
     border-style: solid black 10em;
     width: 20em;
@@ -92,7 +97,7 @@ img {
 }
 
 .img-b{
-    margin-top: 2em;
+    margin-top: em;
     border-radius: 1em;
     border-style: solid black 10em;
     box-shadow: 0 0 1em black;
@@ -102,7 +107,7 @@ img {
 }
 
 .img-c{
-    margin-top: 0em;
+    margin-top: 10em;
     display: block;
     border-radius: 0.5em;
     border-style: solid black 10em;
@@ -111,130 +116,9 @@ img {
     box-shadow: 0 0 1em black;
 }
 
-.jumbotron{
-    margin-top: 4em;
-    background-image: url(Assets/Header\ God\ of\ war.jpg);
-    height: 20em;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 2em;
-    position: relative;
-}
-
-.jumbotron-a{
-    margin-top: 4em;
-    background-image: url(Assets/Background-blue.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 2em;
-}
-
-.jumbotron-p{
-background-image: url(Assets/305679.png);
-background-repeat: no-repeat;
-background-size: 150em;
-background-color: rgba(0, 0, 0, 0.192);
-}
-
-.lonely{
-    margin-top: -0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.navbar {
-    border-bottom: 1px solid #dbd2d2;
-    padding: .5em;
-    background-color: #ffffff;
-}
-
-
-.navbar .container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.navbar-nav {
-    display: flex;
-    list-style: none;
-    padding: 0; 
-}
-
-.navbar-nav li {
-    margin-left: 1em;
-    margin-right: 1em;
-}
-
-.navbar-brand{
-    font-size: 1.8em;
-    color: black;
-    font-weight: 500;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: black;
-}
-
-.nav-item{
-    text-decoration-color: rgb(236, 28, 0);
-}
-
-.nav-link{
-    text-decoration: black;
-    color: black;
-}
-
-
-.small-img{
-    margin-top: em;
-    display: block;
-    border-top-left-radius: 1em;
-    border-style: solid black 10em;
-    border-top-right-radius: 1em;
-    width: 20em;
-    box-shadow: 0 0 1em black;
-}
-
-
-
-.small-descriptions{
-    margin-top: 0em;
-    width: 23.1em;
-    align-self: center;
-    background-color: #ffffff;
-    color: #000000;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.sidebar{
-    margin: auto;
-    padding-top: 7em;
-}
-
-
-.descriptions{
-    margin-top: 0;
-    align-self: center;
-    color: #000000;
-    padding-right: 0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
-
-}
-
-.small-descriptions{
-    margin-top: 0em;
-    width: 23.1em;
-    align-self: center;
-    background-color: #ffffff;
-    color: #000000;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
+/***************************
+J
+****************************/
 
 .jumbotron{
     background-image:url(Assets/God\ OF\ War\ header\ articles.webp);
@@ -251,29 +135,148 @@ background-color: rgba(0, 0, 0, 0.192);
 
 .jumbotron-a{
     margin-top: 4em;
-    background-image: url(Assets/Background-blue.jpg);
+    background-image: url(Assets/Blue\ Background.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 2em;
+    background-size: 150em;
     position: relative;
 }
 
 .jumbotron-p{
-background-image: url(Assets/305679.png);
+background-image: url(Assets/Blue\ Background.png);
 background-repeat: repeat;
 background-size: 150em;
 background-color: rgba(255, 233, 233, 0.192);
 }
 
+.jumbotron-tlou{
+    margin-top: 4em;
+    background-image: url(Assets/TLOU-logo.png);
+    height: 20em;
+    background-position: center;
+    background-size: 45em;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+    position: relative;
+}
+
+.jumbotron-tlou-1{
+    background-size: 150em;
+    background-color: rgb(113, 76, 48);
+}
+
+/***************************
+L
+****************************/
+.lonely{
+    margin-top: -0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/***************************
+N
+****************************/
+
+.navbar {
+    padding: .5em;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar-brand{
+    font-size: 1.8em;
+    color: black;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: black;
+}
+
+.navbar .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar-nav li {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.nav-link{
+    text-decoration: black;
+    color: black;
+}
+
+.nav-item{
+    text-decoration-color: rgb(236, 28, 0);
+}
+
+
+/*navbar for the last of us article*/
+.navbar-tlou {
+    padding: .5em;
+    background-color: rgb(230, 169, 115);
+}
+
+.navbar-tlou .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/***************************
+S
+****************************/
+
+.small-img{
+    margin-top: em;
+    display: block;
+    border-top-left-radius: 1em;
+    border-style: solid black 10em;
+    border-top-right-radius: 1em;
+    width: 20em;
+    box-shadow: 0 0 1em black;
+}
+
+.small-descriptions{
+    margin-top: 0em;
+    width: 23.1em;
+    align-self: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.small-descriptions{
+    margin-top: 0em;
+    width: 23.1em;
+    align-self: center;
+    background-color: #ffffff;
+    color: #000000;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sidebar{
+    margin: auto;
+    padding-top: 7em;
+}
 .sidebar-gow{
     margin: 0;
 }
 
-.footer-a{
-    background-color: rgb(255, 255, 255);
-    margin-top: 70px;
-}
+
 
 
 
