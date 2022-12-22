@@ -162,6 +162,17 @@ background-color: rgba(255, 233, 233, 0.192);
     position: relative;
 }
 
+.jumbotron-crash{
+    margin-top: 5em;
+    background-image: url(Assets/Crash-logo.png);
+    height: 21em;
+    background-position: center;
+    background-size: 45em;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+    position: relative;
+}
+
 .jumbotron-tlou-1{
     background-size: 150em;
     background-color: rgb(113, 76, 48);
