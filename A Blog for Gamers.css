@@ -10,6 +10,12 @@ B
     margin-right: 0;
 }
 
+.button{
+color: #00000000;
+margin: 0;
+padding: 0;
+}
+
 .button-spiderman{
     text-decoration: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -29,7 +35,14 @@ D
     padding-left: 0.5em;
     padding-right: 0.5em;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
+.descriptions-article{
+    margin-top: 1em;
+    width: 10em;
+    padding: 0%;
+    padding-left: 0.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .descriptions-for-articles{
@@ -37,7 +50,7 @@ D
     align-self: center;
     color: #000000;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 500;
+    font-weight: 500em;
 
 }
 
@@ -53,18 +66,25 @@ F
 ****************************/
 .footer{
     background-color: rgb(255, 255, 255);
-    margin-top: 65px;
+    padding-top: 2em;
+    margin-top: 70px;
+    margin: 0;
+    padding: 0;
 }
 
 /* God Of War*/
 .footer-a{ 
     background-color: rgb(255, 255, 255);
     margin-top: 70px;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-tlou{
     background-color: rgb(230, 169, 115);
     margin-top: 70px;
+    margin: 0;
+    padding: 0;
 }
 
 .footer-u{
@@ -167,18 +187,24 @@ J
     margin-bottom: 2em;
     background-size: 150em;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 .jumbotron-p{
 background-image: url(Assets/Blue\ Background.png);
 background-repeat: repeat;
 background-size: 150em;
+margin: 0;
+padding: 0;
 }
 
 .jumbotron-u{
     background-repeat: no-repeat;
     background-size: 100em;
     background-color: rgb(106, 77, 48);
+    margin: 0;
+    padding: 0;
     }
 
 
@@ -205,7 +231,7 @@ background-size: 150em;
 }
 
 .jumbotron-spiderman{
-    margin-top: 5em;
+    margin-top: 2em;
     background-image: url(Assets/Spiderman-logo.png);
     height: 21em;
     background-position: center;
@@ -216,7 +242,7 @@ background-size: 150em;
 }
 
 .jumbotron-Uncharted{
-    margin-top: 5em;
+    margin-top: 0em;
     background-image: url(Assets/Uncharted-logo.png);
     height: 21em;
     background-position: center;
@@ -229,10 +255,14 @@ background-size: 150em;
 .jumbotron-tlou-1{
     background-size: 150em;
     background-color: rgb(113, 76, 48);
+    margin: 0;
+    padding: 0;
 }
 .jumbotron-spiderman-color-background{
     background-size: 150em;
     background-color: rgb(155, 27, 27);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -249,8 +279,10 @@ N
 ****************************/
 
 .navbar {
-    padding: .5em;
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0.5em;
+    box-sizing: border-box;
 }
 
 
@@ -289,13 +321,16 @@ N
 }
 
 .navbar-tlou {
-    padding: .5em;
     background-color: rgb(230, 169, 115);
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-u {
     padding: .5em;
     background-color:  rgb(231, 162, 102);
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-u .container {
@@ -313,6 +348,8 @@ N
 .navbar-spiderman-header {
     padding: .5em;
     background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 
 .navbar-spiderman{
@@ -343,12 +380,21 @@ N
 S
 ****************************/
 
-.small-img{
-    margin-top: em;
+.small-img-main{
+    margin-top: 0em;
     display: block;
     border-top-left-radius: 1em;
-    border-style: solid black 10em;
     border-top-right-radius: 1em;
+    border-style: solid black 10em;
+    width: 20em;
+    box-shadow: 0 0 1em black;
+}
+
+.small-img{
+    margin-top: 0em;
+    display: block;
+    border-radius: 1em;
+    border-style: solid black 10em;
     width: 20em;
     box-shadow: 0 0 1em black;
 }
@@ -384,6 +430,94 @@ S
     margin: 0;
 }
 
+
+/*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+*/
+.grid{
+    display: block;
+    padding: 16px;
+}
+
+.cols{
+    background-color: pink;
+    margin-bottom: 16px;
+    padding: 16px;
+    }
+
+.cols-1{
+    background-size: 18em;
+
+    background-repeat: no-repeat;
+    padding: 0em;
+}
+
+.cols-2{
+    background-image:url(Assets/God-of-war.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-3{
+    background-image:url(Assets/The-last-of-us.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-4{
+    background-image:url(Assets/Spiderman-img-4.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-5{
+    background-image:url(Assets/Uncharted.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-6{
+    background-image:url(Assets/Gotham-Knights.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-7{
+    background-image:url(Assets/Ratchet\ and\ clank.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-8{
+    background-image:url(Assets/MK11.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-9{
+    background-image:url(Assets/Jedi\ fallen\ order.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+.cols-10{
+    background-image:url(Assets/Tomb\ raider.jpg);
+    background-size: 18em;
+    background-repeat: no-repeat;
+    padding: 7em;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 16px;
+    margin-bottom: 3em;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
 
 
 
