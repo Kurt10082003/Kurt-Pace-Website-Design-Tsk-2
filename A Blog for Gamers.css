@@ -1,4 +1,16 @@
 
+
+/****************************
+A
+*****************************/
+.about-hollow{
+    margin-top: 0;
+    margin-left: 1em;
+}
+
+
+
+
 /****************************
 B
 *****************************/
@@ -11,7 +23,7 @@ B
 }
 
 .button{
-color: #00000000;
+color: #000000;
 margin: 0;
 padding: 0;
 }
@@ -21,6 +33,31 @@ padding: 0;
     color: rgb(255, 255, 255);
     margin-left: 0;
     margin-right: 0;
+}
+
+
+/***************************
+C
+***************************/
+.contact-us{
+color:  rgb(255, 255, 255);
+margin-top: 3em;
+margin-left: 1em;
+margin-bottom: 3em;
+font-style:normal
+
+}
+
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form{
+    margin-left: 0.5em;
+    margin-bottom: 0;
+    margin-top: 2em;
+    color: white;
 }
 
 /****************************
@@ -96,6 +133,13 @@ F
     background-color: rgb(37, 36, 124);
     margin-top: 70px;
     color: #ffffff;
+}
+
+/***************************
+H
+****************************/
+.hollow{ width: 30em;
+    margin-left: 1em;
 }
 
 /***************************
@@ -180,7 +224,7 @@ J
 
 .jumbotron-a{
     margin-top: 4em;
-    background-image: url(Assets/Blue\ Background.png);
+    background-color: #305679;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -192,7 +236,7 @@ J
 }
 
 .jumbotron-p{
-background-image: url(Assets/Blue\ Background.png);
+background-color:#305679;
 background-repeat: repeat;
 background-size: 150em;
 margin: 0;
@@ -431,14 +475,32 @@ S
 }
 
 
-/*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.thank-you{
+width: 50em;
+margin-top: 7em;
+margin-bottom: 2em;
+margin-left: auto;
+margin-right: auto;
 }
-*/
+
+.thank-you-button{
+    display: block;
+    margin: auto;
+    margin-bottom: 3em;
+    color: #ffffff;
+    width: 20em;
+    background-color: #000000;
+    border-radius: 8px;
+    text-align: center;
+    height: 5em;
+    line-height: 5em;
+}
+
+.title-hollow{
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
 .grid{
     display: block;
     padding: 16px;

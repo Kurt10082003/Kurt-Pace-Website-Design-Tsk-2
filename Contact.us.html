@@ -7,13 +7,153 @@
     <title>Contact Us</title>
     <link rel="stylesheet" href="A Blog for Gamers.css">
     <link rel="stylesheet" href="grid.css">
-
 </head>
-<body>
-    
+
+
+<!--Header-->
+<body class="jumbotron-a">
+    <nav class="navbar">
+        <div class="container">
+            <a href="A Blog For Gamers.html" class="navbar-brand">A Blog for Gamers</a>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="blog-list.html" class="nav-link">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Articles.html" class="nav-link">Articles</a>
+                </li>
+            </ul>
+
+            <a href="Contact.us.html" class="button">Contact Us</a>
+        </div>
+    </nav>
+
+
+<H1 class="contact-form">Contact Form</H1>
+
+<form class="contact-us" action="Thank-you.html" method="get">
+
+
+<label for="firstname">First Name:</label>
+        <br>
+        <input type="text" name="firstname" id="firstname">
+
+        <br>
+        <br>
+
+        <label for="lastname">Last Name:</label>
+        <br>
+        <input type="text" name="lastname" id='lastname'>
+
+        <br>
+        <br>
+
+        <!-- We can also ask for an Email Address using the input type-->
+        <label for="Email Address">Email Address:</label>
+        <br>
+        <input type="email" name="emailAddress" id="emailAddress">
+
+        <br>
+        <br>
+
+        <label for="Gender">Gender</label>
+        <!-- we can build drop down lists using the select element -->
+        <select name="Gender" id="Gender">
+        <!-- Options in the drop down list require a value attribute as an identifier-->
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="They/Them">They/Them</option>
+            <option value="other">other</option>
+        </select>
+            <br>
+
+            <br>
+
+            <!-- 
+            Fieldsets are used to group up a list of fields 
+            we can add a multiple choice question
+            -->
+
+        <fieldset>
+            
+            <legend>What are your taughts about this website?</legend>
+            <!-- It is always a good idea to have the same name for a group of checkboxes -->
+            <input type="checkbox" name="Feelings" id="Excellent">
+            <label for="Excellent">Excellent</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="Feelings" id="Good">
+            <label for="Good">Good</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="Bad" id="Bad">
+            <label for="Bad">Bad</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" name="Very-Bad" id="Very-Bad" >
+            <label for="Very-Bad">Very Bad</label>
+
+            <br>
+            <br>
+
+            <label for="why?">Why do you feel like this?
+                <input type="Why?" name="Why?" id='why?'>
+            </label>
+
+        </fieldset>
+
+        
+            <br>
+            <br>
+
+
+        <fieldset>
+            <label for="AFFU">Any feedback for us?</label>
+        <br>
+        <input type="AFFU" name="AFFU" id='AFFU'>
+
+        </fieldset>
+
+            <br>
+            <br>
+
+        <button type="submit"> Save </button>
+        <button type="reset"> Cancel </button>
+</body>
+</form>
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Footer-->
+<footer class="footer">
+    &copy; 2022, Kurt Pace
+    <br>
+    Task 2, Website Design
+</footer>
+
+
 </body>
 </html>
